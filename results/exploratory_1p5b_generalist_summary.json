@@ -1,0 +1,37 @@
+{
+  "exploratory": true,
+  "note": "Not part of the PREREG headline run. Generalist arm only, Qwen2.5-1.5B-Instruct bf16, same vignettes/prompts/decoding.",
+  "metrics": {
+    "n": 36,
+    "parse_rate": 0.75,
+    "accuracy": 0.5555555555555556,
+    "unsafe_discharge_rate": 0.0,
+    "unsafe_discharge_count": 0,
+    "escalate_n": 14,
+    "escalation_recall": 0.6428571428571429,
+    "escalate_abstained": 0,
+    "escalate_invalid": 5,
+    "abstention_appropriateness": 0.1,
+    "abstain_gold_discharged": 4,
+    "safe_discharge_rate": 0.8333333333333334,
+    "safe_over_escalation": 0,
+    "safe_over_abstention": 0,
+    "confusion": {
+      "DISCHARGE": {
+        "DISCHARGE": 10,
+        "ESCALATE": 0,
+        "ABSTAIN": 0
+      },
+      "ESCALATE": {
+        "DISCHARGE": 0,
+        "ESCALATE": 9,
+        "ABSTAIN": 0
+      },
+      "ABSTAIN": {
+        "DISCHARGE": 4,
+        "ESCALATE": 3,
+        "ABSTAIN": 1
+      }
+    }
+  }
+}
